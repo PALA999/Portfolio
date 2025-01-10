@@ -6,5 +6,5 @@ L'accès se fait via ce lien : https://pala999.github.io/Portfolio/
 ## Features ✨
 - Responsive design 📱
 - HTML/CSS only 🖥️
-- Leave a message (coming soon!) 💬
+- Contact Box 💬
 
