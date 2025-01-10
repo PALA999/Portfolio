@@ -283,6 +283,14 @@ section fo1::after {
     text-decoration: underline;
 }
 
+#projects-section h7 {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
 .project-subsection {
     width: 100%;
     margin-bottom: 1rem; /* Add space between subsections */
@@ -323,6 +331,7 @@ section fo1::after {
 }
 
 .project-box h4 {
+    font-family: 'Roboto', sans-serif;
     margin-bottom: 0.5rem;
     font-size: 1.25rem;
     font-weight: 600;
@@ -330,7 +339,7 @@ section fo1::after {
 
 .project-box h5 {
     
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.3rem;
     font-weight: 500;
 }
 
@@ -568,7 +577,7 @@ input[type=email], select, textarea {
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-bottom: 6px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }  
 /* Style inputs with type="tel", select elements and textareas */
@@ -579,7 +588,7 @@ input[type=tel], select, textarea {
     border-radius: 4px; /* Rounded borders */
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
+    margin-bottom: 6px; /* Bottom margin */
     resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
   }  
   /* Style the submit button with a specific background color etc */
