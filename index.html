@@ -27,7 +27,7 @@
                 <a href="#about-section">A propos</a>
                 <!-- <a href="#experience-section">Experience</a> -->
                 <a href="#projects-section">Projets</a>
-                <a href="#skills-section">Mes competences</a>
+                <a href="#skills-section">Compétences</a>
                 <a href="#leave-message-section">Contact</a>
             </div>
         </nav>
@@ -46,7 +46,7 @@
                 </p>
                 <br>
                 <p>
-                J'ai également rénové plusieurs appartements et aime les défis manuels.
+                J'ai également retapé plusieurs appartements et aime les défis manuels 
                 Je dispose d'un solide bagage technique et d'une envie d'apprendre aussi bien au niveau constructif que technologique.
                 
                 
@@ -187,8 +187,39 @@
     <div class="divider"></div>
     <section id="leave-message-section">
         <h2>Contact</h2>
-        <p>coming soon :)</p>
+        <div class="container">
+            <form action="https://formspree.io/f/xqaawerp" method="post">
+              <label for="fname">Prénom</label>
+              <input type="text" id="fname" name="firstname" placeholder="Votre prénom..." required>
+          
+              <label for="lname">Nom de famille</label>
+              <input type="text" id="lname" name="lastname" placeholder="Votre nom de famille..." required>
+          
+              <label for="email">E-mail</label>
+              <input type="email" id="email" name="email" placeholder="Votre e-mail..." required>
+          
+              <label for="tel">Téléphone</label>
+              <input type="tel" id="tel" name="tel" pattern="[0-9]{10}" placeholder="1234567890" required>
+          
+              <label for="subject">Message</label>
+              <textarea id="subject" name="subject" placeholder="Écrivez votre message ici..." style="height:200px" required></textarea>
+          
+              <input type="hidden" name="_captcha" value="false">
+              <!--input type="hidden" name="_redirect" value="https://votre-site.com/merci.html"-->
+          
+              <input type="submit" value="Envoyer">
+            </form>
+          </div>
     </section>
+
+    <!-- Script formulaire -->
+    <script>
+        "use strict";
+           const form = document.getElementById("form");
+       </script> 
+    
+
+
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
